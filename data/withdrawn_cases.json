@@ -1,0 +1,114 @@
+{
+  "cases": [
+    {
+      "id": "dbhitek_dbsemi",
+      "parent": { "name": "DB하이텍", "ticker": "000990" },
+      "subsidiary": { "name": "DB반도체" },
+      "type": "물적분할",
+      "events": {
+        "announcement": "2022-07-28",
+        "withdrawal": "2022-09-26"
+      },
+      "withdrawal_reason": "소액주주 반발 + 정부 정책 미확정"
+    },
+    {
+      "id": "hdec_hdeng",
+      "parent": { "name": "현대건설", "ticker": "000720" },
+      "subsidiary": { "name": "현대엔지니어링" },
+      "type": "기존자회사IPO",
+      "events": {
+        "announcement": "2021-04-09",
+        "withdrawal": "2022-01-28"
+      },
+      "withdrawal_reason": "수요예측 부진, 시장 악화"
+    },
+    {
+      "id": "kakao_kakaoent",
+      "parent": { "name": "카카오", "ticker": "035720" },
+      "subsidiary": { "name": "카카오엔터테인먼트" },
+      "type": "기존자회사IPO",
+      "events": {
+        "announcement": "2021-06-01",
+        "withdrawal": "2022-06-01"
+      },
+      "withdrawal_reason": "쪼개기상장 논란 + 사법리스크"
+    },
+    {
+      "id": "sksquare_skshielders",
+      "parent": { "name": "SK스퀘어", "ticker": "402340" },
+      "subsidiary": { "name": "SK쉴더스" },
+      "type": "기존자회사IPO",
+      "events": {
+        "announcement": "2022-03-28",
+        "withdrawal": "2022-05-06"
+      },
+      "withdrawal_reason": "수요예측 부진"
+    },
+    {
+      "id": "poongsan_defense",
+      "parent": { "name": "풍산", "ticker": "103140" },
+      "subsidiary": { "name": "풍산디펜스" },
+      "type": "물적분할",
+      "events": {
+        "announcement": "2022-09-07",
+        "withdrawal": "2022-10-04"
+      },
+      "withdrawal_reason": "소액주주 반발 + 제도개선 분위기"
+    },
+    {
+      "id": "cjenm_studio",
+      "parent": { "name": "CJ ENM", "ticker": "035760" },
+      "subsidiary": { "name": "콘텐츠스튜디오" },
+      "type": "물적분할",
+      "events": {
+        "announcement": "2021-11-19",
+        "withdrawal": "2022-03-24"
+      },
+      "withdrawal_reason": "소액주주 반발 + 규제 강화"
+    },
+    {
+      "id": "skinno_skenm",
+      "parent": { "name": "SK이노베이션", "ticker": "096770" },
+      "subsidiary": { "name": "SK엔무브" },
+      "type": "기존자회사IPO",
+      "events": {
+        "announcement": "2024-11-01",
+        "withdrawal": "2025-06-25"
+      },
+      "withdrawal_reason": "중복상장 논란"
+    },
+    {
+      "id": "ls_essex",
+      "parent": { "name": "LS", "ticker": "006260" },
+      "subsidiary": { "name": "에식스솔루션즈" },
+      "type": "기존자회사IPO",
+      "events": {
+        "announcement": "2025-11-07",
+        "withdrawal": "2026-01-26"
+      },
+      "withdrawal_reason": "중복상장 논란 + 대통령 발언"
+    },
+    {
+      "id": "pharma_split",
+      "parent": { "name": "파마리서치", "ticker": "214450" },
+      "subsidiary": { "name": "파마리서치(신설법인)" },
+      "type": "인적분할",
+      "events": {
+        "announcement": "2025-06-13",
+        "withdrawal": "2025-07-08"
+      },
+      "withdrawal_reason": "승계 꼼수 논란, 주주 반발"
+    },
+    {
+      "id": "ltc_lse",
+      "parent": { "name": "엘티씨", "ticker": "170920" },
+      "subsidiary": { "name": "엘에스이(LSE)" },
+      "type": "기존자회사IPO",
+      "events": {
+        "announcement": "2025-06-01",
+        "withdrawal": "2025-09-19"
+      },
+      "withdrawal_reason": "중복상장(매출71%/영익99%)"
+    }
+  ]
+}

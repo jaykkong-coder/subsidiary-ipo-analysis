@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+data/stock_prices/
+data/financials/
+data/analysis_result.json
+data/withdrawn_result.json
+data/CORPCODE.xml
+reports/
+docs/superpowers/

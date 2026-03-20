@@ -1,0 +1,225 @@
+{
+  "cases": [
+    {
+      "id": "lgchem_lgenergy",
+      "parent": { "name": "LG화학", "ticker": "051910" },
+      "subsidiary": { "name": "LG에너지솔루션", "ticker": "373220" },
+      "type": "물적분할",
+      "events": {
+        "split_announcement": "2020-09-17",
+        "ipo_date": "2022-01-27"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "skinno_skiet",
+      "parent": { "name": "SK이노베이션", "ticker": "096770" },
+      "subsidiary": { "name": "SK아이이테크놀로지", "ticker": "361610" },
+      "type": "물적분할",
+      "events": {
+        "split_announcement": "2020-10-29",
+        "ipo_date": "2021-05-11"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "skchem_skbio",
+      "parent": { "name": "SK케미칼", "ticker": "285130" },
+      "subsidiary": { "name": "SK바이오사이언스", "ticker": "302440" },
+      "type": "기존자회사IPO",
+      "events": {
+        "split_announcement": "2021-01-15",
+        "ipo_date": "2021-03-18"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "hdkorea_hdhhic",
+      "parent": { "name": "HD한국조선해양", "ticker": "009540" },
+      "subsidiary": { "name": "HD현대중공업", "ticker": "329180" },
+      "type": "물적분할",
+      "events": {
+        "split_announcement": "2021-03-08",
+        "ipo_date": "2021-09-17"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "hdkorea_hdmarine",
+      "parent": { "name": "HD한국조선해양", "ticker": "009540" },
+      "subsidiary": { "name": "HD현대마린솔루션", "ticker": "443060" },
+      "type": "물적분할",
+      "events": {
+        "split_announcement": "2024-01-25",
+        "ipo_date": "2024-05-08"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "kakao_kakaobank",
+      "parent": { "name": "카카오", "ticker": "035720" },
+      "subsidiary": { "name": "카카오뱅크", "ticker": "323410" },
+      "type": "기존자회사IPO",
+      "events": {
+        "split_announcement": "2021-06-03",
+        "ipo_date": "2021-08-06"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "kakao_kakaopay",
+      "parent": { "name": "카카오", "ticker": "035720" },
+      "subsidiary": { "name": "카카오페이", "ticker": "377300" },
+      "type": "기존자회사IPO",
+      "events": {
+        "split_announcement": "2021-08-17",
+        "ipo_date": "2021-11-03"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "doosan_doosanrobo",
+      "parent": { "name": "(주)두산", "ticker": "000150" },
+      "subsidiary": { "name": "두산로보틱스", "ticker": "454910" },
+      "type": "기존자회사IPO",
+      "events": {
+        "split_announcement": "2023-07-13",
+        "ipo_date": "2023-10-05"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "ecopro_ecopromat",
+      "parent": { "name": "에코프로", "ticker": "086520" },
+      "subsidiary": { "name": "에코프로머티리얼즈", "ticker": "450080" },
+      "type": "기존자회사IPO",
+      "events": {
+        "split_announcement": "2023-09-14",
+        "ipo_date": "2023-11-17"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "sk_skbiopharm",
+      "parent": { "name": "SK(주)", "ticker": "034730" },
+      "subsidiary": { "name": "SK바이오팜", "ticker": "326030" },
+      "type": "기존자회사IPO",
+      "events": {
+        "split_announcement": "2020-05-26",
+        "ipo_date": "2020-07-02"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "hdkorea_hdelectric",
+      "parent": { "name": "HD한국조선해양", "ticker": "009540" },
+      "subsidiary": { "name": "HD현대일렉트릭", "ticker": "267260" },
+      "type": "기존자회사IPO",
+      "events": {
+        "split_announcement": "2023-05-02",
+        "ipo_date": "2023-07-21"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "ecopro_ecprobm",
+      "parent": { "name": "에코프로", "ticker": "086520" },
+      "subsidiary": { "name": "에코프로비엠", "ticker": "247540" },
+      "type": "기존자회사IPO",
+      "events": {
+        "split_announcement": "2019-01-10",
+        "ipo_date": "2019-03-05"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "kakao_kakaogames",
+      "parent": { "name": "카카오", "ticker": "035720" },
+      "subsidiary": { "name": "카카오게임즈", "ticker": "293490" },
+      "type": "기존자회사IPO",
+      "events": {
+        "split_announcement": "2020-07-09",
+        "ipo_date": "2020-09-10"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "celltrion_celltrionhc",
+      "parent": { "name": "셀트리온", "ticker": "068270" },
+      "subsidiary": { "name": "셀트리온헬스케어", "ticker": "091990" },
+      "type": "기존자회사IPO",
+      "events": {
+        "split_announcement": "2017-05-15",
+        "ipo_date": "2017-07-28"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "dongguk_dongguklsc",
+      "parent": { "name": "동국제약", "ticker": "086450" },
+      "subsidiary": { "name": "동국생명과학", "ticker": "303810" },
+      "type": "물적분할",
+      "events": {
+        "split_announcement": "2017-03-21",
+        "ipo_date": "2025-01-17"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "yuhan_immunoncia",
+      "parent": { "name": "유한양행", "ticker": "000100" },
+      "subsidiary": { "name": "이뮨온시아", "ticker": "424870" },
+      "type": "기존자회사IPO",
+      "events": {
+        "split_announcement": "2024-09-01",
+        "ipo_date": "2025-05-19"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    },
+    {
+      "id": "lg_lgcns",
+      "parent": { "name": "LG", "ticker": "003550" },
+      "subsidiary": { "name": "LG CNS", "ticker": "064400" },
+      "type": "기존자회사IPO",
+      "events": {
+        "split_announcement": "2024-12-05",
+        "ipo_date": "2025-02-05"
+      },
+      "parent_market_cap_at_announcement": null,
+      "revenue_ratio": null,
+      "op_income_ratio": null
+    }
+  ]
+}

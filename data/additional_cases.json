@@ -1,0 +1,41 @@
+[
+  {
+    "id": "hdkorea_hdelectric",
+    "parent": {
+      "name": "HD한국조선해양",
+      "ticker": "009540"
+    },
+    "subsidiary": {
+      "name": "HD현대일렉트릭",
+      "ticker": "267260"
+    },
+    "type": "기존자회사IPO",
+    "events": {
+      "split_announcement": "2023-05-02",
+      "ipo_date": "2023-07-21"
+    },
+    "parent_market_cap_at_announcement": null,
+    "revenue_ratio": null,
+    "op_income_ratio": null
+  },
+  {
+    "id": "celltrion_celltrionhc",
+    "parent": {
+      "name": "셀트리온",
+      "ticker": "068270"
+    },
+    "subsidiary": {
+      "name": "셀트리온헬스케어",
+      "ticker": "091990"
+    },
+    "type": "기존자회사IPO",
+    "events": {
+      "split_announcement": "2017-05-15",
+      "ipo_date": "2017-07-28"
+    },
+    "parent_market_cap_at_announcement": null,
+    "revenue_ratio": null,
+    "op_income_ratio": null,
+    "note": "2017 상장, 2024 합병. 합병 전까지 분석 가능"
+  }
+]

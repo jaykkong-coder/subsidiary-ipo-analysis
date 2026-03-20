@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자회사 상장이 모회사 주가에 미치는 영향 분석</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>자회사 상장이 모회사 주가에 미치는 영향</h1>
+        <p class="subtitle">2017-2026 | 물적분할 + 기존 자회사 IPO 사례 분석</p>
+    </header>
+
+    <main>
+        <!-- 탭 네비게이션 -->
+        <nav class="tab-nav">
+            <button class="tab-btn active" data-tab="completed">상장 완료</button>
+            <button class="tab-btn" data-tab="withdrawn">상장 불발/철회</button>
+        </nav>
+
+        <!-- 상장 완료 탭 -->
+        <div id="tab-completed" class="tab-content active">
+
+        <!-- 요약 카드 -->
+        <section id="summary-cards" class="cards-row"></section>
+
+        <!-- 개별 케이스 차트 -->
+        <section id="case-section">
+            <h2>개별 케이스 분석</h2>
+            <div class="controls">
+                <select id="case-selector">
+                    <option value="">케이스를 선택하세요</option>
+                </select>
+            </div>
+            <div id="case-info" class="case-info-box" style="display:none;"></div>
+            <div id="case-chart"></div>
+        </section>
+
+        <!-- 비교 분석 -->
+        <section id="comparison-section">
+            <h2>비교 분석</h2>
+            <div class="chart-grid">
+                <div id="scatter-revenue" class="chart-box"></div>
+                <div id="scatter-opincome" class="chart-box"></div>
+                <div id="bar-type" class="chart-box"></div>
+                <div id="bar-mcap" class="chart-box"></div>
+            </div>
+        </section>
+
+        <!-- 전체 케이스 테이블 -->
+        <section id="table-section">
+            <h2>전체 케이스 요약</h2>
+            <div class="table-wrapper">
+                <table id="case-table">
+                    <thead>
+                        <tr>
+                            <th>모회사</th>
+                            <th>자회사</th>
+                            <th>유형</th>
+                            <th>매출비중<br><span style="font-weight:400;font-size:0.7rem">(기준연도)</span></th>
+                            <th>자/모 시총<br><span style="font-weight:400;font-size:0.7rem">(기준일)</span></th>
+                            <th>발표당일</th>
+                            <th>발표+30일</th>
+                            <th>상장당일</th>
+                            <th>상장+30일</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        </div><!-- end tab-completed -->
+
+        <!-- 상장 불발/철회 탭 -->
+        <div id="tab-withdrawn" class="tab-content">
+            <section id="wd-summary-cards" class="cards-row"></section>
+
+            <section id="wd-case-section">
+                <h2>불발 케이스 분석</h2>
+                <div class="controls">
+                    <select id="wd-case-selector">
+                        <option value="">케이스를 선택하세요</option>
+                    </select>
+                </div>
+                <div id="wd-case-info" class="case-info-box" style="display:none;"></div>
+                <div id="wd-case-chart"></div>
+            </section>
+
+            <section id="wd-comparison-section">
+                <h2>비교 분석</h2>
+                <div class="chart-grid">
+                    <div id="wd-bar-type" class="chart-box"></div>
+                    <div id="wd-bar-reason" class="chart-box"></div>
+                </div>
+            </section>
+
+            <section id="wd-table-section">
+                <h2>전체 불발 케이스 요약</h2>
+                <div class="table-wrapper">
+                    <table id="wd-case-table">
+                        <thead>
+                            <tr>
+                                <th>모회사</th>
+                                <th>자회사</th>
+                                <th>유형</th>
+                                <th>발표일</th>
+                                <th>철회일</th>
+                                <th>사유</th>
+                                <th>발표당일</th>
+                                <th>발표+30일</th>
+                                <th>철회당일</th>
+                                <th>철회+30일</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </section>
+        </div><!-- end tab-withdrawn -->
+
+    </main>
+
+    <footer>
+        <p>Data: pykrx (KRX), DART OpenAPI | Generated: <span id="gen-date"></span></p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

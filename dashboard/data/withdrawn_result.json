@@ -1,0 +1,296 @@
+{
+  "generated_at": "2026-03-20T11:42:51.666978",
+  "total_cases": 10,
+  "cases": [
+    {
+      "id": "dbhitek_dbsemi",
+      "parent": {
+        "name": "DB하이텍",
+        "ticker": "000990"
+      },
+      "subsidiary": {
+        "name": "DB반도체"
+      },
+      "type": "물적분할",
+      "events": {
+        "announcement": "2022-07-28",
+        "withdrawal": "2022-09-26"
+      },
+      "withdrawal_reason": "소액주주 반발 + 정부 정책 미확정",
+      "metrics": {
+        "returns": {
+          "announcement_D0": 0.0045,
+          "excess_announcement_D0": -0.0021,
+          "announcement_30d": -0.009,
+          "excess_announcement_30d": 0.0015,
+          "withdrawal_D0": -0.0405,
+          "excess_withdrawal_D0": -0.016,
+          "withdrawal_30d": 0.1752,
+          "excess_withdrawal_30d": 0.0857
+        }
+      },
+      "stock_prices_file": "data/000990.csv"
+    },
+    {
+      "id": "hdec_hdeng",
+      "parent": {
+        "name": "현대건설",
+        "ticker": "000720"
+      },
+      "subsidiary": {
+        "name": "현대엔지니어링"
+      },
+      "type": "기존자회사IPO",
+      "events": {
+        "announcement": "2021-04-09",
+        "withdrawal": "2022-01-28"
+      },
+      "withdrawal_reason": "수요예측 부진, 시장 악화",
+      "metrics": {
+        "returns": {
+          "announcement_D0": 0.0011,
+          "excess_announcement_D0": 0.0059,
+          "announcement_30d": 0.1216,
+          "excess_announcement_30d": 0.1189,
+          "withdrawal_D0": 0.0961,
+          "excess_withdrawal_D0": 0.0692,
+          "withdrawal_30d": 0.1481,
+          "excess_withdrawal_30d": 0.1367
+        }
+      },
+      "stock_prices_file": "data/000720.csv"
+    },
+    {
+      "id": "kakao_kakaoent",
+      "parent": {
+        "name": "카카오",
+        "ticker": "035720"
+      },
+      "subsidiary": {
+        "name": "카카오엔터테인먼트"
+      },
+      "type": "기존자회사IPO",
+      "events": {
+        "announcement": "2021-06-01",
+        "withdrawal": "2022-06-01"
+      },
+      "withdrawal_reason": "쪼개기상장 논란 + 사법리스크",
+      "metrics": {
+        "returns": {
+          "announcement_D0": 0.0325,
+          "excess_announcement_D0": 0.0268,
+          "announcement_30d": 0.2677,
+          "excess_announcement_30d": 0.255,
+          "withdrawal_D0": -0.0153,
+          "excess_withdrawal_D0": -0.0044,
+          "withdrawal_30d": -0.1625,
+          "excess_withdrawal_30d": -0.0437
+        }
+      },
+      "stock_prices_file": "data/035720.csv"
+    },
+    {
+      "id": "sksquare_skshielders",
+      "parent": {
+        "name": "SK스퀘어",
+        "ticker": "402340"
+      },
+      "subsidiary": {
+        "name": "SK쉴더스"
+      },
+      "type": "기존자회사IPO",
+      "events": {
+        "announcement": "2022-03-28",
+        "withdrawal": "2022-05-06"
+      },
+      "withdrawal_reason": "수요예측 부진",
+      "metrics": {
+        "returns": {
+          "announcement_D0": 0.029,
+          "excess_announcement_D0": 0.0283,
+          "announcement_30d": -0.1852,
+          "excess_announcement_30d": -0.1368,
+          "withdrawal_D0": -0.0416,
+          "excess_withdrawal_D0": -0.0277,
+          "withdrawal_30d": -0.1426,
+          "excess_withdrawal_30d": -0.051
+        }
+      },
+      "stock_prices_file": "data/402340.csv"
+    },
+    {
+      "id": "poongsan_defense",
+      "parent": {
+        "name": "풍산",
+        "ticker": "103140"
+      },
+      "subsidiary": {
+        "name": "풍산디펜스"
+      },
+      "type": "물적분할",
+      "events": {
+        "announcement": "2022-09-07",
+        "withdrawal": "2022-10-04"
+      },
+      "withdrawal_reason": "소액주주 반발 + 제도개선 분위기",
+      "metrics": {
+        "returns": {
+          "announcement_D0": -0.0209,
+          "excess_announcement_D0": -0.0064,
+          "announcement_30d": -0.1199,
+          "excess_announcement_30d": -0.069,
+          "withdrawal_D0": 0.0864,
+          "excess_withdrawal_D0": 0.0622,
+          "withdrawal_30d": 0.142,
+          "excess_withdrawal_30d": 0.0254
+        }
+      },
+      "stock_prices_file": "data/103140.csv"
+    },
+    {
+      "id": "cjenm_studio",
+      "parent": {
+        "name": "CJ ENM",
+        "ticker": "035760"
+      },
+      "subsidiary": {
+        "name": "콘텐츠스튜디오"
+      },
+      "type": "물적분할",
+      "events": {
+        "announcement": "2021-11-19",
+        "withdrawal": "2022-03-24"
+      },
+      "withdrawal_reason": "소액주주 반발 + 규제 강화",
+      "metrics": {
+        "returns": {
+          "announcement_D0": 0.0593,
+          "excess_announcement_D0": 0.052,
+          "announcement_30d": -0.2251,
+          "excess_announcement_30d": -0.2487,
+          "withdrawal_D0": -0.0178,
+          "excess_withdrawal_D0": -0.0132,
+          "withdrawal_30d": -0.0784,
+          "excess_withdrawal_30d": -0.0408
+        }
+      },
+      "stock_prices_file": "data/035760.csv"
+    },
+    {
+      "id": "skinno_skenm",
+      "parent": {
+        "name": "SK이노베이션",
+        "ticker": "096770"
+      },
+      "subsidiary": {
+        "name": "SK엔무브"
+      },
+      "type": "기존자회사IPO",
+      "events": {
+        "announcement": "2024-11-01",
+        "withdrawal": "2025-06-25"
+      },
+      "withdrawal_reason": "중복상장 논란",
+      "metrics": {
+        "returns": {
+          "announcement_D0": 0.0375,
+          "excess_announcement_D0": 0.0445,
+          "announcement_30d": -0.0107,
+          "excess_announcement_30d": 0.0108,
+          "withdrawal_D0": -0.0079,
+          "excess_withdrawal_D0": -0.011,
+          "withdrawal_30d": 0.0792,
+          "excess_withdrawal_30d": 0.0487
+        }
+      },
+      "stock_prices_file": "data/096770.csv"
+    },
+    {
+      "id": "ls_essex",
+      "parent": {
+        "name": "LS",
+        "ticker": "006260"
+      },
+      "subsidiary": {
+        "name": "에식스솔루션즈"
+      },
+      "type": "기존자회사IPO",
+      "events": {
+        "announcement": "2025-11-07",
+        "withdrawal": "2026-01-26"
+      },
+      "withdrawal_reason": "중복상장 논란 + 대통령 발언",
+      "metrics": {
+        "returns": {
+          "announcement_D0": -0.0713,
+          "excess_announcement_D0": -0.0532,
+          "announcement_30d": -0.0807,
+          "excess_announcement_30d": -0.1017,
+          "withdrawal_D0": 0.0241,
+          "excess_withdrawal_D0": 0.034,
+          "withdrawal_30d": 0.0707,
+          "excess_withdrawal_30d": -0.0582
+        }
+      },
+      "stock_prices_file": "data/006260.csv"
+    },
+    {
+      "id": "pharma_split",
+      "parent": {
+        "name": "파마리서치",
+        "ticker": "214450"
+      },
+      "subsidiary": {
+        "name": "파마리서치(신설법인)"
+      },
+      "type": "인적분할",
+      "events": {
+        "announcement": "2025-06-13",
+        "withdrawal": "2025-07-08"
+      },
+      "withdrawal_reason": "승계 꼼수 논란, 주주 반발",
+      "metrics": {
+        "returns": {
+          "announcement_D0": -0.1711,
+          "excess_announcement_D0": -0.1627,
+          "announcement_30d": 0.2872,
+          "excess_announcement_30d": 0.1728,
+          "withdrawal_D0": 0.1373,
+          "excess_withdrawal_D0": 0.1188,
+          "withdrawal_30d": 0.1105,
+          "excess_withdrawal_30d": 0.1023
+        }
+      },
+      "stock_prices_file": "data/214450.csv"
+    },
+    {
+      "id": "ltc_lse",
+      "parent": {
+        "name": "엘티씨",
+        "ticker": "170920"
+      },
+      "subsidiary": {
+        "name": "엘에스이(LSE)"
+      },
+      "type": "기존자회사IPO",
+      "events": {
+        "announcement": "2025-06-01",
+        "withdrawal": "2025-09-19"
+      },
+      "withdrawal_reason": "중복상장(매출71%/영익99%)",
+      "metrics": {
+        "returns": {
+          "announcement_D0": 0.0104,
+          "excess_announcement_D0": 0.0108,
+          "announcement_30d": 0.2649,
+          "excess_announcement_30d": 0.0663,
+          "withdrawal_D0": -0.0087,
+          "excess_withdrawal_D0": -0.005,
+          "withdrawal_30d": -0.0015,
+          "excess_withdrawal_30d": -0.1825
+        }
+      },
+      "stock_prices_file": "data/170920.csv"
+    }
+  ]
+}
