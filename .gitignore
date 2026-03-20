@@ -8,3 +8,4 @@ data/withdrawn_result.json
 data/CORPCODE.xml
 reports/
 docs/superpowers/
+# docs/ is used for GitHub Pages (copy of dashboard/)
