@@ -484,11 +484,4 @@ function renderWdTable() {
 }
 
 // Init
-window.onerror = (msg, src, line, col, err) => {
-    document.body.insertAdjacentHTML('afterbegin',
-        `<pre style="color:red;background:#fff;padding:1rem;border:2px solid red;margin:1rem;">ERROR: ${msg}\nat ${src}:${line}:${col}\n${err?.stack || ''}</pre>`);
-};
-loadData().catch(err => {
-    document.body.insertAdjacentHTML('afterbegin',
-        `<pre style="color:red;background:#fff;padding:1rem;border:2px solid red;margin:1rem;">LOAD ERROR: ${err.message}\n${err.stack}</pre>`);
-});
+loadData();
